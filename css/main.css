@@ -66,7 +66,7 @@ body{
 .icone span a{
     margin: auto;
     list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     float: ; 
     margin-left: 15px;
     color: #1a4994;
@@ -76,4 +76,58 @@ body{
 .icone:hover{
     width: 125px;
     background: #f0f0f0;
+}
+.texto{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    width: 500px;
+    height: 200px;
+    padding: 25px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background: #204478;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(22, 22, 22, 0.7)
+}
+.sobre-mim{
+    position: absolute;
+    top: 25px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 35px;
+
+}
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #204478;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+.linguagem{
+    display: flex;
+    justify-content: center;
+}
+.linguagem img{
+   display: flex;
+    border-radius: ;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(53, 53, 53);
+    margin: 5px;
 }
