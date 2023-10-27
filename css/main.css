@@ -139,7 +139,7 @@ body{
     border-radius: ;
     justify-content: center;
     align-items: center;
-    width: 280px;
+    width: 400px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgb(53, 53, 53);
     margin: 5px;
@@ -192,5 +192,78 @@ footer p{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
+/*FIM CSS DESKOTP*/
 
-@media (max-width: 700px)
+/* Recurso para Renderizar o conteudo do site e adapte para divervos dispositivos moveis ou resoluções */
+@media (max-width: 700px){
+    .imagem img{
+        width: 140px;
+        margin-top: 25px;
+    }
+
+    .texto{
+        width: 300px;
+        height: 420px;
+    }
+
+    .linguagem img{
+        width: 220px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+
+    .item{
+        width: 350px;
+    }
+
+    .video{
+        width: 250px;
+    }
+}
+/*fim resoução 700*/
+
+@media (max-width: 500px) {
+    .imagem img{
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    .nome{
+        font-size: 25px;
+
+    }
+
+    .texto{
+        width: 350px;
+        height: 320px;
+        padding: 30px;
+        margin-top: 50px;
+    }
+
+    .sobre-mim{
+        font-size: 20px;
+    }
+
+    
+    .subtitulo{
+        font-size: 25px;
+    }
+
+    .linguagem img{
+        width: 170px;
+    }
+
+
+    .item{
+        width: 260px;
+        height: 40px;
+        margin-top: 15px;
+    }
+
+    .video{
+        width: 250px;
+        height: 160px;
+    }
+}
