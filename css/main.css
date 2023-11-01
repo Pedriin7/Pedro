@@ -96,7 +96,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: justify;
-    width: 500px;
+    width: 700px;
     height: 200px;
     padding: 25px;
     border-radius: 10px;
@@ -178,7 +178,7 @@ body{
     display: none;
 }
 
-.video:active{
+.video.active{
     display: block;
 }
 
